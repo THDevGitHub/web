@@ -8,7 +8,7 @@ import {PauseOnBlurFactory} from './pauseonblurmodule/pauseonblur'
 import {PauseOnHiddenFactory} from './pauseonhiddenmodule/pauseonhidden'
 import {PlayCanvasFactory} from './playcanvas/playcanvas'
 import {RuntimeErrorFactory} from './runtimeerrormodule/runtime-error-module'
-import {StatsFactory} './statsmodule/stats'
+import {StatsFactory} from './statsmodule/stats'
 import {ThreeExtrasFactory} from './three/three-extras'
 import {MediaRecorder} from './mediarecorder/mediarecorder'
 
