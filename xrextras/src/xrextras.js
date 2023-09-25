@@ -7,9 +7,8 @@ import {LifecycleFactory} from './lifecyclemodule/lifecycle'
 import {PauseOnBlurFactory} from './pauseonblurmodule/pauseonblur'
 import {PauseOnHiddenFactory} from './pauseonhiddenmodule/pauseonhidden'
 import {PlayCanvasFactory} from './playcanvas/playcanvas'
-import {PwaInstallerFactory} from './pwainstallermodule/pwa-installer-module'
 import {RuntimeErrorFactory} from './runtimeerrormodule/runtime-error-module'
-import {StatsFactory} from './statsmodule/stats'
+import {StatsFactory} './statsmodule/stats'
 import {ThreeExtrasFactory} from './three/three-extras'
 import {MediaRecorder} from './mediarecorder/mediarecorder'
 
@@ -25,7 +24,6 @@ const XRExtras = {
   PauseOnBlur: PauseOnBlurFactory(),
   PauseOnHidden: PauseOnHiddenFactory(),
   PlayCanvas: PlayCanvasFactory(),
-  PwaInstaller: PwaInstallerFactory(),
   RuntimeError: RuntimeErrorFactory(),
   Stats: StatsFactory(),
   ThreeExtras: ThreeExtrasFactory(),
